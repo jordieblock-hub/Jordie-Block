@@ -628,10 +628,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .about-img-frame img {
   width: 100%;
-  aspect-ratio: 4/5;
+  aspect-ratio: 5/6;
   object-fit: cover;
+  object-position: center top;
   border-radius: 3px;
-  filter: grayscale(15%);
 }
 
 .about-img-placeholder {
